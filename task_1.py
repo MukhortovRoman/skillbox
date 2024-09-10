@@ -26,7 +26,7 @@ def main():
     numbers = float(input('Введите число: '))
     if 0 < numbers < 1:
         point(numbers)
-    elif numbers > 10:
+    elif numbers >= 10:
         point_1(numbers)
     elif 1 <= numbers < 10:
         point_2(numbers)
